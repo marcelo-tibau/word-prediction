@@ -7,5 +7,5 @@ This project will work on 1-Gram (N: n=1), 2-Gram (N: n=2) and 3-Gram (N: n=3) m
 
 For more information, check the report I wrote for the project at [Milestone Report - Data Science Project](https://rpubs.com/marcelo_tibau/252490) 
 
-To predict I settled to Google's stupid backoff algorithm, a new smoothing method, that is inexpensive to train on large data sets and approaches the quality of Kneser-Ney Smoothing as the amount of training data increases.
+To predict, I settled to Google's stupid backoff algorithm, a smoothing method, that is inexpensive to train on large data sets and approaches the quality of Kneser-Ney Smoothing as the amount of training data increases.
 *Reference: Brants, Thorsten; Popat, Ashok C; Xu, Peng; Och, Franz J; Dean, Jeffrey. “Large language models in machine translation”. EMNLP/CoNLL. 2007.* 

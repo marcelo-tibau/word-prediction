@@ -48,7 +48,6 @@ fun.input = function(x) {
 }
 
 # Codes to predict using Google's stupid backoff algorithm
-# Reference: Brants, Thorsten et al. "Large language models in machine translation". EMNLP/CoNLL. 2007. 
 
 fun.predict = function(x, y, n=100) {
   if(x == "" & y == "") {

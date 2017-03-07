@@ -1,3 +1,4 @@
+# Shiny server script
 # Libraries and sources
 
 source('prediction.R')

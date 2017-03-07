@@ -1,3 +1,4 @@
+# Script to load data into global environment for the shiny app.
 # Libraries used
 
 library('shiny')

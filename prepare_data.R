@@ -1,3 +1,4 @@
+# Prepare the data for analysis and modeling
 # Libraries and sources
 source('shiny_app/prediction.R')
 

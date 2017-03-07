@@ -1,3 +1,4 @@
+# Scritp to predict a NextWord using stupid backoff algorithm
 # Libraries used
 
 library('dplyr')

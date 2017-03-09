@@ -2,7 +2,7 @@
 # Libraries and sources
 
 source('prepare_data.R')
-source('shiny_app/prediction.R')
+source('prediction.R')
 
 # Codes to prepare the validation sets.
 # To transform the validation set to quanteda format

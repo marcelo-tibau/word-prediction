@@ -1,6 +1,6 @@
 # Prepare the data for analysis and modeling
 # Libraries and sources
-source('shiny_app/prediction.R')
+source('prediction.R')
 
 library('tidyr')
 library('readr')
@@ -19,8 +19,8 @@ combined <- sample(combinedRaw, length(combinedRaw)*n)
 
 # Codes to split into train and validation sets
 split <- sample.split(combined, 0.8)
-train <- subset(combined, split = T)
-valid <- subset(combined, split = F)
+train <- subset(combined, split==T)
+valid <- subset(combined, split==F)
 
 # Tokenization process
 

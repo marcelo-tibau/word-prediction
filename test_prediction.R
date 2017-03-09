@@ -1,6 +1,6 @@
 # Script to test the prediction model using stupid backoff algorithm
 ## Libraries and sources
-source('shiny_app/prediction.R')
+source('prediction.R')
 source('prepare_data.R')
 
 # Code to input text sample

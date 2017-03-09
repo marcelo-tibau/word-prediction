@@ -8,7 +8,7 @@ library('caTools')
 
 # Codes to read the data
 blogsRaw <- read_lines('./data/en_US.blogs.txt')
-newsRaw <- read_lines('./data/en_US.news.tx')
+newsRaw <- read_lines('./data/en_US.news.txt')
 twitterRaw <- read_lines('./data/en_US.twitter.txt')
 combinedRaw <- c(blogsRaw, newsRaw, twitterRaw)
 

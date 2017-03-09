@@ -8,7 +8,7 @@ library('RColorBrewer')
 
 # Code to transfer to quanteda package corpus format and segment it into senteces 
 fun.corpus = function(x) {
-  corpus(unlist(segment(x, 'senteces')))
+  corpus(unlist(segment(x, 'sentences')))
 }
 
 # Code to tokenize the ngram

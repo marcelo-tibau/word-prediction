@@ -12,3 +12,5 @@ To predict, I settled to Google's stupid backoff algorithm, a smoothing method, 
 *Reference: Brants, Thorsten; Popat, Ashok C; Xu, Peng; Och, Franz J; Dean, Jeffrey. “Large language models in machine translation”. EMNLP/CoNLL. 2007.* 
 
 ### To check the App, click [here](https://marcelotibau.shinyapps.io/word_predictor/)
+
+### To see a presentation about the App, step right up [here](http://rpubs.com/marcelo_tibau/word-prediction-app)

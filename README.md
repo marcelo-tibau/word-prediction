@@ -10,3 +10,5 @@ For more information, check the report I wrote for the project at [Milestone Rep
 To predict, I settled to Google's stupid backoff algorithm, a smoothing method, that is inexpensive to train on large data sets and approaches the quality of Kneser-Ney Smoothing as the amount of training data increases.
 
 *Reference: Brants, Thorsten; Popat, Ashok C; Xu, Peng; Och, Franz J; Dean, Jeffrey. “Large language models in machine translation”. EMNLP/CoNLL. 2007.* 
+
+### To check the App, click [here](https://marcelotibau.shinyapps.io/word_predictor/)

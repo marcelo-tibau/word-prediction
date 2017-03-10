@@ -14,7 +14,7 @@ fun.corpus = function(x) {
 # Code to tokenize the ngram
 
 fun.tokenize = function(x, ngramSize = 1, simplify = T) {
-  toLower(
+  char_tolower(
     quanteda::tokenize(x,
                        removeNumbers = T,
                        removePunct = T,
